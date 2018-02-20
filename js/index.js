@@ -1,22 +1,22 @@
 
-var user_selection = prompt("What Calculator mode do you want to use? Basic, Advanced,  or BMI?");
+var user_selection = prompt("What Calculator mode do you want to use? (a)Basic, (b)Advanced,  or (c)BMI?");
 
 // Prompt Menu
 
-if (user_selection == "basic"){
+if (user_selection == "a"){
 
 	var num1 = parseInt(prompt("Enter your first number"));
 	var num2 = parseInt(prompt("Enter your second number"));
 
 	var operator_selector = prompt("What operator would you like to use?: (+)Add (-)Subtract (*)multiplication (/)division");
 
-} else if (user_selection == 'advanced'){
+} else if (user_selection == 'b' ){
 
 	var num1 = parseInt(prompt("Enter your first number"));
 	var num2 = parseInt(prompt("Enter your second number"));
 	var power_operator = prompt("Which Advanced function would you like to use? (a)Power (b)Square Root");
 
-} else if (user_selection == 'BMI' || 'bmi'){
+} else if (user_selection == 'c'){
 	var bmi_operator = prompt("Which Units would you like to use? (a)Metric, (b)Imperial");
 
 }else{
