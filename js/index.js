@@ -23,8 +23,6 @@ if (user_selection == "Basic"){
 	alert("Invalid Option. Please try again by refereshing the page!");
 }
 
-
-
 //  Operators
 
 if (operator_selector == '+'){
